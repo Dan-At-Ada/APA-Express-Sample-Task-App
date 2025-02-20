@@ -1,0 +1,89 @@
+/* Base CSS file */
+/* Just grabbed some CSS from the web to make the site look a little better */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #121212;
+    color: #e0e0e0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    background: #1f1f1f;
+    color: #e0e0e0;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #bb86fc 3px solid;
+}
+
+header a {
+    color: #e0e0e0;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header ul {
+    padding: 0;
+    list-style: none;
+}
+
+header li {
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+header #branding {
+    float: left;
+}
+
+header #branding h1 {
+    margin: 0;
+}
+
+header nav {
+    float: right;
+    margin-top: 10px;
+}
+
+header .highlight, header .current a {
+    color: #bb86fc;
+    font-weight: bold;
+}
+
+header a:hover {
+    color: #bb86fc;
+}
+
+button, .button {
+    display: inline-block;
+    height: 40px;
+    background: #1f1f1f;
+    color: #e0e0e0;
+    border: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+button:hover, .button:hover {
+    background: #bb86fc;
+    color: #121212;
+}
